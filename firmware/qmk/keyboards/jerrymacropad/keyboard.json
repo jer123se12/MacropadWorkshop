@@ -1,0 +1,36 @@
+{
+    "manufacturer": "SP EEE",
+    "keyboard_name": "3 Key Macropad",
+    "maintainer": "jer123se12",
+    "bootloader": "rp2040",
+    "development_board":"kb2040",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP27", "GP26", "GP15"]
+        
+            
+        ]
+    },
+    "usb": {
+        "device_version": "0.5.0",
+        "pid": "0x0001",
+        "vid": "0x5350"
+    },
+    "layout_aliases": {
+        "LAYOUT_all": "LAYOUT"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "GP0", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "GP1", "matrix": [0, 1], "x": 1, "y": 0},
+                {"label": "GP2", "matrix": [0, 2], "x": 2, "y": 0}
+            ]
+        }
+    }
+}
