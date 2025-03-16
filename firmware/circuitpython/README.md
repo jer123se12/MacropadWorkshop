@@ -1,12 +1,12 @@
 # Circuitpython
 ## Installing Circuitpython
-1. To install circuit python, first got to (here)[https://circuitpython.org/board/waveshare_rp2040_zero/] and download the `.UF2` file.
+1. To install circuit python, first got to [here](https://circuitpython.org/board/waveshare_rp2040_zero/) and download the `.UF2` file.
 2. Plug in the macropad to the computer
 3. Hold the `boot` button and press the `reset` button. a drive named `RPI-RP2` should show up on your computer
 4. Copy `.UF2` file downloaded to the drive. It should automatically reset and a `CIRCUITPY` drive should show up on your computer.
 
 ## Installing Dependencies
-1. Go (here)[https://circuitpython.org/libraries] to download `Bundle for Version 9.X`
+1. Go [here](https://circuitpython.org/libraries) to download `Bundle for Version 9.X`
 2. Extract the folder
 3. Copy the following files from `/lib` from the extracted folder to the `/lib` in `CIRCUITPY` folder from your macropad
     - `adafruit_debouncer.mpy`
