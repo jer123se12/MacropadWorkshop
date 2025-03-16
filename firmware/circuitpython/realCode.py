@@ -14,6 +14,9 @@ pin3 = digitalio.DigitalInOut(board.GP15)
 pin1.direction = digitalio.Direction.INPUT
 pin2.direction = digitalio.Direction.INPUT
 pin3.direction = digitalio.Direction.INPUT
+pin1.pull = digitalio.Pull.UP
+pin2.pull = digitalio.Pull.UP
+pin3.pull = digitalio.Pull.UP
 
 # add debouncer
 switch1 = Debouncer(pin1)
