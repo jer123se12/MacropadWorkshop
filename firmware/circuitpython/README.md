@@ -18,3 +18,9 @@
 1. Copy code from `firmware/circuitpython/code.py` in github to `code.py` in `CIRCUITPY`
 2. Save
 3. Code should auto-reload and you can press the right-most button to test. it should press `f`
+
+
+# Links and Resources
+[Circuit python docs](https://docs.circuitpython.org/en/latest/README.html)
+[List of Keycodes](https://docs.circuitpython.org/projects/hid/en/latest/api.html#adafruit_hid.keycode.Keycode)
+[Circuit python website](https://circuitpython.org/)
